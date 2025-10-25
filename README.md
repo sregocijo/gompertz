@@ -30,19 +30,3 @@ While the data input is from fermentations, the extracted Gompertz parameters ar
 
 - 📊 Interactive curve plotting with ggplot2
 - ⚙️ Nonlinear least squares fitting of the Gompertz model
-
-## 📈 Gompertz Equation
-
-The model used is:
-
-\[
-Y(t) = A \cdot \exp\left(-\exp\left(\frac{\mu \cdot e}{A}(\lambda - t) + 1\right)\right)
-\]
-
-Where:
-
-- \( Y(t) \): Ethanol yield at time \( t \)
-- \( A \): Maximum yield
-- \( \mu \): Maximum specific production rate
-- \( \lambda \): Lag time
-- \( e \): Euler’s number
